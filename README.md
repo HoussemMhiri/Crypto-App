@@ -1,6 +1,6 @@
-# cryptoVerse
+# Cryptoverse
 
-**cryptoVerse** is a React-based application that provides comprehensive information about cryptocurrencies. The app features global crypto statistics, detailed information on top cryptocurrencies, price charts, and news about the crypto world.
+**Cryptoverse** is a React-based application that provides comprehensive information about cryptocurrencies. The app features global crypto statistics, detailed information on top cryptocurrencies, price charts, and news about the crypto world.
 
 ## Features
 
