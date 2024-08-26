@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# cryptoVerse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**cryptoVerse** is a React-based application that provides comprehensive information about cryptocurrencies. The app features global crypto statistics, detailed information on top cryptocurrencies, price charts, and news about the crypto world.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Global Crypto Stats:** 
+  - Total Cryptocurrencies,
+  - Total Exchanges,
+  - Total Market Cap,
+  - Total 24h Volume,
+  - Total Markets,
 
-### `npm start`
+- **Top Cryptocurrencies:** View a list of the top cryptocurrencies in the world.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Crypto Details:** For each cryptocurrency, the app provides:
+  - Price Chart
+  - Detailed Statistics, including:
+    - Price to USD
+    - Rank
+    - 24h Volume
+    - Market Cap
+    - All-time-high (daily avg.)
+    - Number of Markets
+    - Number of Exchanges
+    - Approved Supply
+    - Total Supply
+    - Circulating Supply
+  - Description of the Cryptocurrency
+  - Links to Official Resources (e.g., website, GitHub, Medium, Twitter)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Search Functionality:** Search for specific cryptocurrencies.
 
-### `npm test`
+- **Crypto News:** Latest news related to cryptocurrencies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend:** React.js
+- **UI Framework:** Ant Design 
+- **State Management:** Redux 
+- **Charting:** Chart.js 
+- **HTTP Requests:** Axios
+- **Date Handling:** Moment.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js & npm
 
-### `npm run eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    git clone https://github.com/HoussemMhiri/Crypto-App.git
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install JavaScript dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3. Run the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm run start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Visit `http://localhost:3000` in your browser to access the application.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Explore Global Stats:** View overall statistics about cryptocurrencies.
+2. **Browse Top Cryptocurrencies:** Check out the top cryptocurrencies and their details.
+3. **View Detailed Crypto Information:** Explore price charts and various statistics for each cryptocurrency.
+4. **Search Cryptocurrencies:** Use the search feature to find specific cryptocurrencies.
+5. **Read Crypto News:** Stay updated with the latest news in the crypto world.
 
-### Analyzing the Bundle Size
+## Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can adjust application settings and API endpoints in the configuration files located in the `src/services` directory.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
+ 
+### Contact
+For any inquiries, feel free to reach out to me at houssemmhiri95@gmail.com.
